@@ -2,7 +2,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-app.js";
 import { getDatabase, ref, push, onChildAdded } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-database.js";
 
-// 2. あなたのFirebaseプロジェクトの設定（画面に表示されたものです！）
+// 2. あなたのFirebaseプロジェクトの設定（データベースURLをしっかり紐付けました！）
 const firebaseConfig = {
     apiKey: "AIzaSyAQEUonks2_XAY16zkzPanSq4F7QAo3h6Y",
     authDomain: "fumichat-9e489.firebaseapp.com",
@@ -10,7 +10,7 @@ const firebaseConfig = {
     storageBucket: "fumichat-9e489.firebasestorage.app",
     messagingSenderId: "699411432110",
     appId: "1:699411432110:web:c7e39681d8983b1001a33f",
-    // 💡 データを保存するデータベースのURLです
+    // 🔗 あなたのFirebase Realtime DatabaseのURLです！
     databaseURL: "https://fumichat-9e489-default-rtdb.firebaseio.com"
 };
 
